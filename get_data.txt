@@ -1,0 +1,4 @@
+SELECT * FROM tasks
+WHERE topic='sort' AND difficulty=800
+ORDER BY num_solved DESC
+LIMIT 10;
